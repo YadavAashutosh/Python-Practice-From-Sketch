@@ -16,3 +16,11 @@ Cart.insert(1,input("Enter a item name to add :"))
 
 Cart.sort() # Sort shows "none" if you call sort directly in print function
 print(Cart)
+
+
+tuples= (1,)
+print(type(tuples))
+
+tuples= (1,2,3,4,5,6,7,6,7)
+print(tuples.index(6))
+print(tuples.count(6))
