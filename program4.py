@@ -15,7 +15,7 @@ uniquedata = set(rawdata)
 
 mapdata = {}
 for tags in rawdata:
-    mapdata.update({tags : rawdata.count(tags)}) # or in simple way, mapdata[tags] : rawdata.count(tags)
+    mapdata.update({tags : rawdata.count(tags)}) # or in simple way, mapdata[tags] = rawdata.count(tags)
 
 uniquedata.add("deep leaning")
 mapdata["deep learning"] =  1
